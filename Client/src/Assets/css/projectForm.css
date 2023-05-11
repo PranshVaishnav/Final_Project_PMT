@@ -1,0 +1,190 @@
+.projectForm {
+  padding-inline: 3rem;
+  /* padding-block: 1rem; */
+  font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 100%;
+  background-color: #f8f8f8;
+}
+.projectF-head {
+  padding: 1rem;
+  font-weight: 600;
+}
+.display-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.projectFaddMember-input {
+  width: 334%;
+  outline: none;
+  margin-block: 0.5rem;
+  font-size: medium;
+  padding: 0.5rem;
+  border: 1px solid #cdd3df;
+  border-radius: 0.2rem;
+}
+.projectF-form {
+  position: relative;
+  padding: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: 0 0 6px rgb(0 0 0 / 30%); */
+  border-radius: 0.5rem;
+  opacity: 0.94;
+  z-index: 2;
+  /* border: 2px solid black; */
+  box-shadow: 0 0 6px rgb(0 0 0 / 30%);
+}
+.projectF-title {
+  padding-block: 1rem;
+}
+.projectF-Horizontal-section {
+  display: flex;
+  flex-direction: row;
+}
+.section {
+  flex: 1;
+  padding: 0.5rem;
+}
+.projectF-Input {
+  padding: 0.8rem;
+}
+.projectF-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.projectF-LabelSection {
+  margin: auto 10px auto 0;
+  width: 28%;
+  color: rgba(58, 53, 65, 0.54);
+  font-weight: 550;
+}
+.label-and-input {
+  margin-block-start: 1rem;
+}
+.projectF-InputSection {
+  flex: 7;
+}
+
+.label-and-input > input {
+  outline: none;
+  margin-block: 0.5rem;
+  font-size: medium;
+  padding: 0.5rem;
+  border: 1px solid #cdd3df;
+  border-radius: 0.2rem;
+}
+hr {
+  line-height: 0;
+  font-size: 0;
+  border-bottom: 0.1px solid #e2e6ee;
+  margin: 2px 0 1px 0;
+  height: 0;
+}
+.ql-snow {
+  display: flex;
+  flex-direction: row;
+}
+.progress-status {
+  padding: 0.2rem;
+  background-color: #50b83c;
+  color: white;
+  margin-block: 1rem;
+  border-radius: 5px;
+  width: 18%;
+}
+.addMember-Top {
+  margin-block-start: 3rem;
+  border: 1px solid #cdd3df;
+  /* margin-top: 3rem; */
+}
+.searchIco {
+  font-size: 1.5rem;
+  margin: "auto 10px ";
+}
+.searchIco:hover {
+  background-color: rgb(165, 173, 165);
+  margin-left: 0%;
+}
+.ql-snow.ql-toolbar .ql-formats {
+  margin: 0px !important;
+}
+.date-and-duratioin {
+} 
+
+.addedUser {
+  margin-inline-end: 20px;
+  padding-inline: 5px;
+  padding-block: 3px;
+  border-radius: 5px;
+  color: black;
+  /* border: 1px solid black; */
+}
+.projectF-Horizontal-section > section {
+  border: 1px solid #cdd3df;
+}
+
+@media screen and (max-width: 1163px) {
+  .addMember-Top {
+    margin-block-start: 5rem;
+    /* margin-top: 3rem; */
+  }
+
+  .projectTop > img {
+    display: none;
+  }
+  .projectForm {
+    height: 100%;
+  }
+  .date {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 747px) {
+  .addMember-Top {
+    margin-block-start: 6rem;
+    /* margin-top: 3rem; */
+  }
+
+  .projectF-title {
+    text-align: center;
+    font-size: large;
+  }
+  /* * {
+    font-size: small;
+  } */
+  .projectForm {
+    height: 100%;
+  }
+  .projectF-head {
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+  }
+  .projectF-Horizontal-section {
+    flex-direction: column;
+  }
+  .progress-status {
+    width: 25%;
+  }
+  .label-and-input > input {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 434px) {
+  .addMember-Top {
+    margin-block-start: 9rem;
+    /* margin-top: 3rem; */
+  }
+  .progress-status {
+    width: 35%;
+  }
+  .projectForm {
+    padding-inline: 0rem;
+  }
+  .date {
+    width: 80% !important;
+  }
+}
